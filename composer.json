@@ -1,0 +1,29 @@
+{
+    "name": "vertigolabs/zippopotamus",
+    "description": "A simple interface to the Zippopotamus api",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "zipcode",
+        "city",
+        "state",
+        "country",
+        "geography",
+        "geocode"
+    ],
+    "authors": [
+        {
+            "name": "James Murray",
+            "email": "jaimz@vertigolabs.org"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "4.2.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "VertigoLabs\\Zippopotamus\\": "src/"
+        }
+    }
+}
